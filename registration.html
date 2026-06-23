@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGISTER</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+
+<div class="logo">VISIONS ACADEMY</div>
+
+<ul class="nav-links">
+<li><a href="home.html">Home</a></li>
+<li><a href="registration.html">Register</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+
+</nav>
+
+<div class="form-page">
+
+<div class="form-container">
+
+<h2>REGISTRATION</h2>
+<form action="registration.php" method="post">
+
+<div class="input-group">
+<label>Full Name</label>
+<input type="text" name="full_name" required>
+</div>
+
+<div class="input-group">
+<label>Date of Birth</label>
+<input type="date" name="date_of_birth" required>
+</div>
+
+<div class="input-group">
+<label>Email</label>
+<input type="email" name="email" required>
+</div>
+
+<div class="input-group">
+<label>Phone Number</label>
+<input type="tel" name="phone_number" required>
+</div>
+
+<div class="input-group">
+<label>Corhort Applying For</label>
+<select name="cohort_applying_for">
+<option>Corhort 1</option>
+<option>Corhort 2</option>
+<option>Corhort 3</option>
+<option>Corhort 4</option>
+<option>Corhort 5</option>
+<option>Corhort 6</option>
+</select>
+</div>
+
+<div class="input-group">
+<label>Password</label>
+<input type="password" name="password" required>
+</div>
+
+<div class="input-group">
+<label>Confirm Password</label>
+<input type="password" name="confirm_password" required>
+</div>
+
+<button type="submit" class="submit-btn">
+Register
+</button>
+
+
+<p style="margin-top:15px;text-align:center;">
+Already have an account?
+<a href="login.html">Login</a>
+</p>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+</html>
